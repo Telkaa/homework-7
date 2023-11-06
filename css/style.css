@@ -45,8 +45,8 @@
 }
 .star3{
     position:absolute;
-    width: 8px;
-    height: 8px;
+    width: 6px;
+    height: 6px;
     top:400px;
     left:300px;
     background-color: white;
@@ -55,8 +55,8 @@
 }
 .star4{
     position:absolute;
-    width: 8px;
-    height: 8px;
+    width: 6px;
+    height: 6px;
     top:200px;
     left:700px;
     background-color: white;
@@ -65,8 +65,8 @@
 }
 .star5{
     position:absolute;
-    width: 8px;
-    height: 8px;
+    width: 6px;
+    height: 6px;
     top:100px;
     left:900px;
     background-color: white;
