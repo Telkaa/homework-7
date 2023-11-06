@@ -1,0 +1,76 @@
+.background-img{
+    width:100vw;
+    height: 100vh;
+    background-image: url("../img/main.jpg");
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+.star{
+    position:absolute;
+    width: 5px;
+    height: 5px;
+    top:100px;
+    left:1000px;
+    background-color: white;
+    border-radius: 50%;
+    animation: drop 2s;
+    animation-delay: 2s;
+    
+}
+@keyframes drop{
+    0% {top: 100px;left:1000px;}
+    50%{background-color: white;}
+    100%{top:500px;left:400px;background-color:transparent;}
+}
+@keyframes drop2{
+    0% {top: 50px;left:200px;}
+    50%{background-color: white;}
+    100%{top:200px;left:900px;background-color:transparent;}
+
+}@keyframes shine{
+    0% {background-color: transparent;}
+    100%{background-color: white;}
+}
+.star2{
+    position:absolute;
+    width: 7px;
+    height: 7px;
+    top:50px;
+    left:100px;
+    background-color: white;
+    border-radius: 50%;
+    animation: drop2 2s;
+    animation-delay: 5s;
+}
+.star3{
+    position:absolute;
+    width: 8px;
+    height: 8px;
+    top:400px;
+    left:300px;
+    background-color: white;
+    border-radius: 50%;
+    animation: shine 0.5s infinite;
+}
+.star4{
+    position:absolute;
+    width: 8px;
+    height: 8px;
+    top:200px;
+    left:700px;
+    background-color: white;
+    border-radius: 50%;
+    animation: shine 0.5s infinite;
+}
+.star5{
+    position:absolute;
+    width: 8px;
+    height: 8px;
+    top:100px;
+    left:900px;
+    background-color: white;
+    border-radius: 50%;
+    animation: shine 0.5s infinite;
+}
+
